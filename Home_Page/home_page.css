@@ -1,0 +1,48 @@
+.responsive-circle {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    width: 80%;
+    color: blue;
+}
+.responsive-circle::after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 0;
+    margin-bottom: 20px;
+    padding-bottom: 100%;
+    width: 100%;
+}
+.responsive-circle div {
+    color: black;
+    float: left;
+    line-height: 1em;
+    margin-top: -0.5em;
+    padding-top: 50%;
+    text-align: center;
+    width: 100%;
+}
+.nyc-circle2::after {
+    background: #005F6B repeat scroll 0 0 / cover ;
+}
+
+.nyc-circle1::after {
+    background: #008B8B repeat scroll 0 0 / cover ;
+}
+
+.nyc-circle3::after {
+    background: #008080 repeat scroll 0 0 / cover ;
+}
+
+.nyc-circle4::after {
+    background: #005F6B repeat scroll 0 0 / cover ;
+}
+
+.nyc-circle5::after {
+    background: #008B8B repeat scroll 0 0 / cover ;
+}
+
+.nyc-circle6::after {
+    background: #008080 repeat scroll 0 0 / cover ;
+}
